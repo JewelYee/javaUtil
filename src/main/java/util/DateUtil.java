@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by yee on 2017/8/30.
  */
-public class DateUtil {
+public final class DateUtil {
     /**
      * 字符串：yyyy-MM-dd HH:mm:ss
      */

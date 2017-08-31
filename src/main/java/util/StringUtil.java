@@ -9,7 +9,7 @@ import java.util.*;
 /**
  * Created by yee on 2017/8/30.
  */
-public class StringUtil {
+public final class StringUtil {
     /**
      * 将字符串ids数组转换成为List<Long>类型<br>
      * 原始数据："{'ids':[1,2,3]}"<br>

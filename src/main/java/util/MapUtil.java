@@ -7,7 +7,7 @@ import java.util.*;
 /**
  * Created by yee on 2017/8/30.
  */
-public class MapUtil {
+public final class MapUtil {
     /**
      * map的key 转List
      *
