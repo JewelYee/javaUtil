@@ -72,7 +72,7 @@ public class StringUtil {
 
     /**
      * String 转换 String数组
-     * @param str
+     * @param str 例："1,2,3,4,a,s,d"
      * @return
      */
     public String[] stringToArray(String str){

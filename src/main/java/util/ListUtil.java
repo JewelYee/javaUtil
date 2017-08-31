@@ -5,6 +5,7 @@ import java.beans.PropertyDescriptor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
+import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
@@ -18,8 +19,8 @@ public class ListUtil {
      *
      * 按照指定对象的字段排序
      *
-     * @param list
-     * @param param
+     * @param list 排序集合
+     * @param param 排序指定字段
      * @param <T>
      * @throws IntrospectionException
      */
@@ -52,8 +53,8 @@ public class ListUtil {
      *
      * 按照指定对象的字段倒叙排序
      *
-     * @param list
-     * @param param
+     * @param list 排序集合
+     * @param param 排序指定字段
      * @param <T>
      * @throws IntrospectionException
      */
@@ -83,5 +84,8 @@ public class ListUtil {
         }.reversed());
     }
 
+    public static final Boolean  isEmpty(Collection<?> collection){
+        return (collection == null || collection.isEmpty());
+    }
 
 }
